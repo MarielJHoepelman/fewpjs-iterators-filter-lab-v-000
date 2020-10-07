@@ -4,5 +4,5 @@
 // });
 
 function findMatching(drivers){
-  drivers.filter(driver => driver.toLowerCase().includes(term.toLowerCase()))  
+  drivers.filter(driver => driver.toLowerCase().includes(driver.toLowerCase()))  
 }
