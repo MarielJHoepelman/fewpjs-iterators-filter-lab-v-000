@@ -12,7 +12,7 @@ function findMatching(drivers, driver){
 }
 
 const findMatching = (drivers, driver) => {
-  return drivers.filter(function(driverName){
+  return drivers.filter(driverName => {
     return driverName.toLowerCase() === driver.toLowerCase();
   });
 }
