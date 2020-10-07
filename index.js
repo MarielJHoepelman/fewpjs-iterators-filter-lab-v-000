@@ -8,5 +8,6 @@ function findMatching(drivers){
 }
 
 const findMatching = drivers.filter((driver) => {
-  if (driver.toString().indexOf(searchString).toLowerCase !== -1) return true
+  if (driver.toString().indexOf(searchString).toLowerCase !== -1) {
+    return driver
 })
