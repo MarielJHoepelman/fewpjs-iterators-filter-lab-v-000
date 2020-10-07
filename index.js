@@ -22,8 +22,9 @@
 const findMatching = (drivers, driver) =>
   drivers.filter(driverName => driverName.toLowerCase() === driver.toLowerCase());
 
-function fuzzyMatch(drivers, driver) {
+function fuzzyMatch(drivers, initials) {
   return drivers.filter(function(driverInitials) {
-    
+    return driverInitials
+
   })
 }
