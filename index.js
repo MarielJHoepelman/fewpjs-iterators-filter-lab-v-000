@@ -1,4 +1,8 @@
 // Code your solution here
-// const fuzzyMatch = drivers.filter(function(driver) {
+// const findMatching = drivers.filter(function(driver) {
 //   console.log(driver)
 // });
+
+function findMatching(name) {
+  console.log(name)
+}
