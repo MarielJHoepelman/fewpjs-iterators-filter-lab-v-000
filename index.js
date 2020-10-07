@@ -4,10 +4,10 @@
 // });
 //
 function findMatching(drivers, driver){
-  console.log(drivers, driver)
+  // console.log(drivers, driver)
   return drivers.filter(function(name){
-    // return name.toLowerCase() === driver.tolowercase();
-    console.log(name.toLowerCase())
+    return name.toLowerCase() === driver.tolowercase();
+    // console.log(name.toLowerCase())
   });
 }
 
