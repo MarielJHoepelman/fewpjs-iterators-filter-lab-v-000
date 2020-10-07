@@ -28,4 +28,4 @@ function fuzzyMatch(drivers, initials) {
   })
 }
 
-const fuzzyMatch = (drivers, initials) => drivers.filter(driverName => driverInitials.slice === driverInitials)
+const fuzzyMatch = (drivers, initials) => drivers.filter(driverName => driverName.slice(0,2) === initials)
