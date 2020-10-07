@@ -7,7 +7,7 @@ function findMatching(drivers, driver){
   console.log(drivers, driver)
   return drivers.filter(function(name){
     // return name.toLowerCase() === driver.tolowercase();
-    console.log(nametoLowerCase())
+    console.log(name.toLowerCase())
   });
 }
 
