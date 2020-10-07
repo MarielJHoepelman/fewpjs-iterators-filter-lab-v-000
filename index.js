@@ -3,8 +3,10 @@
 //   console.log(driver)
 // });
 
-function findMatching(drivers, name){
-
+function findMatching(drivers, driver){
+  return drivers.filter(function(name){
+    return name.toLowerCase() === driver.tolowercase();
+  })
 }
 
 function findMatching (list, name) {
