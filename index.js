@@ -11,6 +11,5 @@
 //   });
 // }
 //same as above
-const findMatching = (drivers, driver) => {
-  return drivers.filter(driverName => driverName.toLowerCase() === driver.toLowerCase());
-}
+const findMatching = (drivers, driver) =>
+  drivers.filter(driverName => driverName.toLowerCase() === driver.toLowerCase());
