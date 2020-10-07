@@ -4,5 +4,9 @@
 // });
 
 function findMatching(drivers){
-  drivers.filter(driver => driver.toLowerCase().includes(driver.toLowerCase()))  
+
 }
+
+const findMatching = drivers.filter((driver) => {
+  if (driver.toString().indexOf(searchString).toLowerCase !== -1) return true
+})
