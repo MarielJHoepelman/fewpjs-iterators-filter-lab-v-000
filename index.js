@@ -32,4 +32,5 @@ const fuzzyMatch = (drivers, initials) =>
   drivers.filter(driverName => driverName.slice(0,2) === initials);
 
 const matchName = (drivers, driverName) =>
+console.log(drivers, driverName)
   drivers.filter(name => driverName === name);
