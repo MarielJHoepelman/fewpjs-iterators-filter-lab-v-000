@@ -10,3 +10,9 @@ function findMatching(drivers, driver){
     // console.log(name.toLowerCase())
   });
 }
+
+const findMatching = (drivers, driver) => {
+  return drivers.filter(function(driverName){
+    return driverName.toLowerCase() === driver.toLowerCase();
+  });
+}
