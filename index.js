@@ -3,11 +3,12 @@
 //   console.log(driver)
 // });
 
-function findMatching(drivers){
+function findMatching(drivers, name){
 
 }
 
-const findMatching = drivers.filter((driver) => {
-  if (driver.toString().indexOf(searchString).toLowerCase !== -1) {
-    return driver
-})
+function findMatching (list, name) {
+  return list.filter(function (driverName) {
+    return driverName.toLowerCase() === name.toLowerCase();
+  });
+}
