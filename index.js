@@ -4,6 +4,5 @@
 // });
 
 function findMatching(name){
-  console.log(name)
-  console.log(here)
+  console.log(name, here)
 }
