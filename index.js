@@ -9,8 +9,8 @@ function findMatching(drivers, driver){
   });
 }
 
-function findMatching (list, name) {
-  return list.filter(function (driverName) {
-    return driverName.toLowerCase() === name.toLowerCase();
-  });
-}
+// function findMatching (list, name) {
+//   return list.filter(function (driverName) {
+//     return driverName.toLowerCase() === name.toLowerCase();
+//   });
+// }
