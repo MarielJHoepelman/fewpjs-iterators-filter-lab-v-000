@@ -4,5 +4,7 @@
 // });
 
 function findMatching(drivers){
-  console.log(name, "here")
+  for (const element of drivers) {
+    console.log(driver)
+  }
 }
