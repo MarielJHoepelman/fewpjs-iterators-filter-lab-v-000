@@ -24,7 +24,6 @@ const findMatching = (drivers, driver) =>
 
 function fuzzyMatch(drivers, initials) {
   return drivers.filter(function(driverInitials) {
-    return driverInitials
-
+    return driverInitials.splice(0, 2) === initials
   })
 }
